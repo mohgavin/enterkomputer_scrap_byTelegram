@@ -21,7 +21,7 @@ async def main():
 
     me = await client.get_me()
     
-    await client.send_file('No. Handphone', '/home/nivag/enterkomputer_scrap/mytable.png') # Di isi dengan no. handpphone yang dikirimkan
+    await client.send_file('+6267513897', '/home/nivag/enterkomputer_scrap/mytable.png') # Di isi dengan no. handpphone yang dikirimkan
     
 if __name__ == "__main__":
 
