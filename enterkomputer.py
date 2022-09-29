@@ -4,8 +4,8 @@ from initialization import loading_website, regex1, regex2, table_process1
 from telethon import TelegramClient
 
 # Remember to use your own values from my.telegram.org!
-api_id = #Disi dengan API ID Sendiri
-api_hash = '' #Diisi dengan APi Hash Bot Sendiri
+api_id = 8712378 #Disi dengan API ID Sendiri
+api_hash = 'sdlfiuhsoy789123' #Diisi dengan APi Hash Bot Sendiri
 client = TelegramClient('/home/nivag/enterkomputer_scrap/nivagad', api_id, api_hash)
 
 async def main():
@@ -21,11 +21,8 @@ async def main():
 
     me = await client.get_me()
     
-    #await client.send_message('+6281318543952', 'This is madnesss')
-    #await client.send_message(5767949729, 'Hello, Baby!')
-    await client.send_file('+6281318543952', '/home/nivag/enterkomputer_scrap/mytable.png')
-    #await client.send_message('+6281318543952', './mytable.png')
-
+    await client.send_file('No. Handphone', '/home/nivag/enterkomputer_scrap/mytable.png') # Di isi dengan no. handpphone yang dikirimkan
+    
 if __name__ == "__main__":
 
     with client:
