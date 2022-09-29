@@ -8,3 +8,6 @@ Requirement :
 
   - Selenium
   - Python 3.9
+  - Pandas
+
+
