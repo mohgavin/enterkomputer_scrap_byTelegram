@@ -21,10 +21,7 @@ async def main():
 
     me = await client.get_me()
     
-    #await client.send_message('+6281318543952', 'This is madnesss')
-    #await client.send_message(5767949729, 'Hello, Baby!')
-    await client.send_file('+6281318543952', '/home/nivag/enterkomputer_scrap/mytable2.png')
-    #await client.send_message('+6281318543952', './mytable.png')
+    await client.send_file('+621927836', '/home/nivag/enterkomputer_scrap/mytable2.png') #Di isi dengan no Handphone yang ingin dikirmkan
 
 if __name__ == "__main__":
 
