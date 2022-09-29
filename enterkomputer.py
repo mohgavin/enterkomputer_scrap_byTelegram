@@ -4,8 +4,8 @@ from initialization import loading_website, regex1, regex2, table_process1
 from telethon import TelegramClient
 
 # Remember to use your own values from my.telegram.org!
-api_id = 9976807
-api_hash = 'eeb6d44c42b51d958ed92b75a00b643f'
+api_id = #Disi dengan API ID Sendiri
+api_hash = '' #Diisi dengan APi Hash Bot Sendiri
 client = TelegramClient('/home/nivag/enterkomputer_scrap/nivagad', api_id, api_hash)
 
 async def main():
